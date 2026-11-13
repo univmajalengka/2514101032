@@ -1,0 +1,235 @@
+
+/* PENGATURAN DASAR */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BACKGROUND HALAMAN */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4eedf;
+    color: #243047;
+    padding: 30px 20px;
+}
+
+/* CONTAINER UTAMA */
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* HEADER */
+header {
+    background-color: #17263f;
+    color: #f5efdf;
+    text-align: center;
+    padding: 30px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+header h1 {
+    font-size: 27px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #e1d7c2;
+}
+
+/* KARTU KONTEN */
+.card {
+    background-color: #fffdf7;
+    padding: 30px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    border: 1px solid #e5dcc9;
+}
+
+/* JUDUL */
+h2 {
+    color: #17263f;
+    margin-bottom: 10px;
+}
+
+.description {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+/* FORM INPUT */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #c9c1b2;
+    border-radius: 7px;
+    font-size: 15px;
+    margin-bottom: 15px;
+    background-color: white;
+}
+
+input:focus {
+    outline: none;
+    border-color: #17263f;
+}
+
+/* TOMBOL */
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #17263f;
+    color: #f5efdf;
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #304665;
+}
+
+/* KETENTUAN DISKON */
+.info-diskon {
+    background-color: #f5efdf;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 25px;
+}
+
+.info-diskon h3 {
+    color: #17263f;
+    margin-bottom: 12px;
+}
+
+.info-diskon ul {
+    padding-left: 20px;
+    line-height: 1.9;
+    color: #555;
+}
+
+/* PESAN */
+.message {
+    background-color: #e9eee6;
+    color: #355c42;
+    padding: 12px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+/* TABEL */
+.table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #17263f;
+    color: #f5efdf;
+    padding: 15px 12px;
+    font-size: 13px;
+}
+
+td {
+    padding: 14px 12px;
+    text-align: center;
+    border-bottom: 1px solid #e5dcc9;
+    font-size: 13px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f5efdf;
+}
+
+tbody tr:hover {
+    background-color: #eee5d2;
+}
+
+/* HASIL PERHITUNGAN */
+.result-table {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.result-table td:first-child {
+    text-align: left;
+    font-weight: bold;
+}
+
+.result-table td:last-child {
+    text-align: right;
+}
+
+/* TOTAL PEMBAYARAN */
+.total-box {
+    background-color: #17263f;
+    color: #f5efdf;
+    padding: 22px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.total-box p {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.total-box h3 {
+    font-size: 25px;
+}
+
+/* RIWAYAT KOSONG */
+.empty {
+    padding: 25px;
+    color: #888;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #777;
+    font-size: 13px;
+}
+
+/* TAMPILAN HP */
+@media (max-width: 600px) {
+
+    body {
+        padding: 15px 10px;
+    }
+
+    header {
+        padding: 25px 15px;
+    }
+
+    header h1 {
+        font-size: 21px;
+    }
+
+    .card {
+        padding: 20px 15px;
+    }
+
+    table {
+        min-width: 750px;
+    }
+
+}
